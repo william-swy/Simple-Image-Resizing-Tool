@@ -1,4 +1,5 @@
 # Image Resizer and Color Replacer
+[![pdm-managed](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fpdm-project%2F.github%2Fbadge.json)](https://pdm-project.org)
 
 Simple GUI that allows for the resizing of various image formats, and adding and removing colors from images
 Intially built to edit thumbnails for a [calculator project](https://github.com/Pectacius/Calculus-Matrix-Calculator)
@@ -30,8 +31,8 @@ valid_file_types = (("Bitmap files", "*.bmp*"),
 ```
 
 ## Setup
-1. Clone repository and run `pipenv sync` to install dependencies in new environment
-2. run `main.py`
+1. Clone repository and run `pdm sync` to install dependencies in new environment
+2. run `main.py` via `pdm run python ./src/main.py`
 
 ## Usage
 #### General
